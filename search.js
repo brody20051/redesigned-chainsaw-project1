@@ -1,16 +1,22 @@
-const searchInput = document.getElementById("searchInput");
-const products = document.querySelectorAll("#productList li");
+document.addEventListener("DOMContentLoaded", function () {
 
-searchInput.addEventListener("keyup", function () {
-  const filter = searchInput.value.toLowerCase();
+  const products = ["Brody's Mustang"];
 
-  products.forEach(product => {
-    const text = product.textContent.toLowerCase();
-    if (text.includes(filter)) {
-      product.style.display = "";
-    } else {
-      product.style.display = "none";
-    }
+  const input = document.getElementById("searchInput");
+  const results = document.getElementById("searchResults");
+
+  input.addEventListener("input", function () {
+
+    const filtered = products.filter(p =>
+      p.toLowerCase().includes(input.value.toLowerCase())
+    );
+
+    results.innerHTML = "";
+
+    filtered.forEach(item => {
+      results.innerHTML += `<li>${item}</li>`;
+    });
+
   });
-});
 
+});
