@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (password === "lasagna") {
       sessionStorage.setItem("user", username);
-      window.location.href = "session.html";
+      window.location.href = "../pages/session.html";
     } else {
       alert("Incorrect password");
     }
