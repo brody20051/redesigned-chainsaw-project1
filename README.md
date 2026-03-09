@@ -20,7 +20,7 @@
 * Google Fonts (Orbitron)
 * GitHub and GitHub Pages for hosting
 * W3C schools for syntax guidance
-
+* Custom Ink for shirt design
 
 
 ---
