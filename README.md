@@ -4,6 +4,7 @@
 
 
 # Lights Out Racing
+* A car centered merchandise marketplace.
 
 ## Authorship & Attribution
 
