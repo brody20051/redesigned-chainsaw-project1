@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
-
+// password check
     if (password === "lasagna") {
       sessionStorage.setItem("user", username);
       window.location.href = "../pages/session.html";
