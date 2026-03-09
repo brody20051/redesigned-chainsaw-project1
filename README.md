@@ -26,7 +26,7 @@
 
 ## Tagline
 
-> “Lights Out Racing.”
+> “Lights Out Racing. Bravo going dark.”
 
 ---
 
