@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", displayProducts)
-
+// product behavior 
 const products = [
 
 {
