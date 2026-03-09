@@ -69,7 +69,7 @@ This influenced:
 <img width="1897" height="911" alt="Screenshot 2026-01-12 103930" src="https://github.com/user-attachments/assets/14e39e40-6c4f-44ce-bff1-773b03fcb12b" />
 <img width="1906" height="955" alt="Screenshot 2026-01-20 171729" src="https://github.com/user-attachments/assets/a0b5c78a-968e-4eb9-bb32-a15e638cc236" />
 
-This design was used as a reference for creating the layout and styling of the website. I adapted the idea of a clean product display with bold branding and simplified navigation.
+This design was used as a reference for creating the layout and styling of the website. I used the idea of a clean product display with bold branding.
 
 ---
 
@@ -104,7 +104,7 @@ This JavaScript code allows the user to switch between two product images.
 
 **DOM → Script → DOM/Data Flow**
 
-User clicks button --> JavaScript event listener triggers --> Script updates image `src` --> DOM updates --> New product image displayed.
+User clicks button --> JavaScript  listener triggers --> Script updates image `src` --> DOM updates --> New product image displayed.
 
 ---
 
@@ -116,7 +116,7 @@ The site structure includes:
 
 * HTML files for page layout
 * CSS for styling and layout
-* JavaScript for dynamic page interaction
+* JavaScript for dynamic  interaction
 
 
 
@@ -129,8 +129,5 @@ The application was tested in multiple environments.
 * Desktop browser
 * Mobile responsive mode using browser developer tools
 
-**Issues**
 
-* Images must be correctly referenced in the images folder for GitHub Pages to load them.
-* GitHub Pages may require a page refresh after deployment for changes to appear.
 
